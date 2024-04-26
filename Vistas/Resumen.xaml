@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gguachaminExamen.Vistas.Resumen">
+    <VerticalStackLayout
+        Spacing="20"
+        Padding="25">
+        <Label 
+            x:Name="lblUsuarioConectado"
+            HorizontalTextAlignment="End" 
+            FontSize="20"
+            TextColor="Green"/> 
+        <Label Text="Resumen de Registro"
+               FontSize="24"
+               TextColor="Red"
+               HorizontalTextAlignment="Center"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Nombre"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+            <Label x:Name="lblNombre"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
+            
+            <Label Text="Apellido"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="1"
+                   Grid.Column="0"/>    
+            <Label x:Name="lblApellido"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+            
+            <Label Text="Edad"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="2"
+                   Grid.Column="0"/>
+            <Label x:Name="lblEdad"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="2"
+                   Grid.Column="1"/>
+            
+            <Label Text="Fecha"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+            <Label x:Name="lblFecha"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="3"
+                   Grid.Column="1"/>
+            
+            <Label Text="Ciudad"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="4"
+                   Grid.Column="0"/>
+            <Label x:Name="lblCiudad"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="4"
+                   Grid.Column="1"/>
+            
+            <Label Text="País"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="5"
+                   Grid.Column="0"/>
+            <Label x:Name="lblPais"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="5"
+                   Grid.Column="1"/>
+            
+            <Label Text="Monto Inicial"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="6"
+                   Grid.Column="0"/>
+            <Label x:Name="lblMontoInicial"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="6"
+                   Grid.Column="1"/>
+            
+            <Label Text="Pago Mensual"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="7"
+                   Grid.Column="0"/>
+            <Label x:Name="lblPagoMensual"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="7"
+                   Grid.Column="1"/>
+
+            <Label Text="Pago Total"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="8"
+                   Grid.Column="0"/>
+            <Label x:Name="lblPagoTotal"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="8"
+                   Grid.Column="1"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
